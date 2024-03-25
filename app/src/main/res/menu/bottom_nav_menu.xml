@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainNav1"
+        android:icon="@mipmap/ico_1"
+        android:title="消息" />
+
+    <item
+        android:id="@+id/mainNav2"
+        android:icon="@mipmap/ico_2"
+        android:title="我的" />
+
+
+
+
+</menu>

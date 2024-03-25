@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_lightblue"
+    tools:context=".activity2.NursePersonal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/personal_nurse"
+        android:text="个人中心"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:id="@+id/split_line"
+        android:background="@color/gray"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/personal_nurse"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nurse_picture"
+        android:background="@drawable/doctor_"
+        android:layout_below="@+id/split_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nurse_name"
+        android:text="姓名：杨护士"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:layout_below="@+id/split_line"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nurse_sex"
+        android:text="性别：女"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:layout_below="@+id/nurse_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nurse_age"
+        android:text="年龄：28"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:layout_below="@+id/nurse_sex"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nurse_department"
+        android:text="科室：儿科"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="15dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:layout_below="@+id/nurse_age"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:layout_below="@+id/nurse_department"
+        android:padding="10dp"
+        android:layout_marginTop="18dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/workreports"
+        android:background="@drawable/workreports"
+        android:layout_below="@+id/nurse_picture"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings"
+        android:background="@drawable/settings"
+        android:layout_below="@+id/workreports"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/workreport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="工作记录"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/workreports"
+        android:layout_below="@+id/nurse_picture"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/workreports"
+        android:layout_marginLeft="-76dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/workreports"
+        android:layout_below="@+id/workreports"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/settings"
+        android:layout_marginLeft="-76dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/nurse_picture"
+        android:background="@color/gray" />
+
+
+</RelativeLayout>
